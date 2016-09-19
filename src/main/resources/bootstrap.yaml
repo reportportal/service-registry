@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: registry
+
+info:
+  build:
+    name: Registry Service
+    description: ReportPortal Registry and Configuration Service
+    version: '@version@'

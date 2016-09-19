@@ -1,0 +1,35 @@
+server:
+  port: 8761
+
+eureka:
+  enableSelfPreservation: false
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname:localhost}:${server.port:8761}/eureka/
+spring:
+  cloud:
+    config:
+      server:
+        prefix: /configs
+
+
+#EPAM-SPECIFIC properties
+---
+spring:
+  profiles: epam
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@git.epam.com:EPM-RPP/reportportal-configs.git
+
+#DOCKER-SPECIFIC properties
+---
+spring:
+  profiles: native
+  cloud:
+    config:
+      server:
+        native:
