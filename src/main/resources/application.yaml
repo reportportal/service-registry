@@ -13,8 +13,8 @@ spring:
     config:
       server:
         prefix: /configs
-  profiles:
-    active: native
+#  profiles:
+#    active: native
 
 #EPAM-SPECIFIC properties
 ---
