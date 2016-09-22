@@ -12,11 +12,8 @@ spring:
     config:
       server:
         prefix: /configs
-logging:
-  level:
-    root: DEBUG
-#  profiles:
-#    active: native
+  profiles:
+    active: native
 
 #EPAM-SPECIFIC properties
 ---
