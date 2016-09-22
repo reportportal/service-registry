@@ -53,3 +53,8 @@ bootRun {
     systemProperties = System.properties
 }
 
+processResources {
+    filesMatching('**/bootstrap.yaml') {
+        filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: [version: project.property("version")])
+    }
+}
