@@ -1,6 +1,5 @@
 server:
   port: 8761
-
 eureka:
   enableSelfPreservation: false
   client:
@@ -13,6 +12,9 @@ spring:
     config:
       server:
         prefix: /configs
+logging:
+  level:
+    root: DEBUG
 #  profiles:
 #    active: native
 
