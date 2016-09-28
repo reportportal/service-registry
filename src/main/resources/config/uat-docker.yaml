@@ -1,7 +1,7 @@
 spring:
   # Redis Configuration
   redis:
-    host: redis
+    host: \${reportportal.redis.host:redis}
     port: 6379
 
 
@@ -16,6 +16,6 @@ eureka:
 # MongoDB configuration
 rp:
    mongo:
-        host: mongodb
+        host: \${reportportal.mongo.host:mongodb}
         port: 27017
         dbName: reportportal
