@@ -8,4 +8,4 @@ ADD ${project.name}-${version}.jar app.jar
 RUN sh -c 'touch /app.jar'
 EXPOSE 8080
 
-ENTRYPOINT ["java","-Xmx128m","-Djava.security.egd=file:/dev/./urandom", "-jar","/app.jar"]
+ENTRYPOINT ["java","-Xmx192m","-Djava.security.egd=file:/dev/./urandom", "-jar","/app.jar"]
