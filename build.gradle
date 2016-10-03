@@ -22,6 +22,8 @@ apply plugin: 'spring-boot'
 apply from: 'build-quality.gradle'
 apply from: 'build-docker.gradle'
 
+description = 'EPAM Report portal. Service Registry and Configuration Server'
+
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
