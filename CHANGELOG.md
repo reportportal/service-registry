@@ -1,12 +1,13 @@
 # Changelog
 
-## 2.6.0-SNAPSHOT
-##### Released: XXX September 2016
+## 2.6.0
+##### Released: 11 September 2016
 
 ### New Features
 
 * Initial release to Public Maven Repositories
-* DockerHub Release 
+* DockerHub Release
+* Expand Mongo/Redis config properties as environment variables
 
 
 
