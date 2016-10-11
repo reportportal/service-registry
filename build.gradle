@@ -21,6 +21,7 @@ apply plugin: 'spring-boot'
 
 apply from: 'build-quality.gradle'
 apply from: 'build-docker.gradle'
+apply from: 'release-service.gradle'
 
 description = 'EPAM Report portal. Service Registry and Configuration Server'
 
