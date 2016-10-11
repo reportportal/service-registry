@@ -5,7 +5,7 @@ server:
 spring:
   # Redis Configuration
   redis:
-    host: \${reportportal.redis.host:redis}
+    host: \${rp.redis.host:redis}
     port: \${rp.redis.port:6379}
 
 
