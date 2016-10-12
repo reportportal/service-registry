@@ -33,4 +33,4 @@ spring:
     config:
       server:
         native:
-          search-locations: classpath:/config/, classpath:/config/global.yaml
+          search-locations: classpath:/config/
