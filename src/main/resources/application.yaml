@@ -12,6 +12,8 @@ spring:
     config:
       server:
         prefix: /configs
+      allow-override: true
+      override-system-properties: false
   profiles:
     active: native
 
