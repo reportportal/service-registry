@@ -8,6 +8,10 @@ eureka:
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname:localhost}:${server.port:8761}/eureka/
 spring:
+  cloud:
+    config:
+      server:
+        prefix: /configs
   profiles:
     active: native
 
@@ -20,7 +24,6 @@ spring:
       server:
         git:
           uri: git@git.epam.com:EPM-RPP/reportportal-configs.git
-        prefix: /configs
 
 #DOCKER-SPECIFIC properties
 ---
