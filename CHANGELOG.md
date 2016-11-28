@@ -11,3 +11,9 @@
 
 
 
+## 2.7.0
+##### Released: 11 September 2016
+
+### Improvements
+
+* Spring Cloud dependencies update
