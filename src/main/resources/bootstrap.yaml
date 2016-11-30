@@ -7,3 +7,4 @@ info:
     name: Registry Service
     description: ReportPortal Registry and Configuration Service
     version: '@version@'
+    branch: '@branch@'
