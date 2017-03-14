@@ -11,5 +11,5 @@ ENV JAVA_OPTS="-Xmx192m"
 VOLUME /tmp
 ADD $APP_DOWNLOAD_URL /app.jar
 RUN sh -c 'touch /app.jar'
-EXPOSE 8080
+EXPOSE 8761
 ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /app.jar"]
