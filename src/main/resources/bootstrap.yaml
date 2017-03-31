@@ -8,3 +8,4 @@ info:
     description: ReportPortal Registry and Configuration Service
     version: '@version@'
     branch: '@branch@'
+    repo: '@repo@'
