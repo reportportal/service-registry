@@ -40,6 +40,12 @@ dependencyManagement {
     }
 }
 
+sourceSets {
+    generated {
+        java.srcDir "${buildDir}/generated/src/java/"
+    }
+}
+
 dependencies {
     compile ('org.springframework.cloud:spring-cloud-starter-eureka-server'){
         exclude module: 'spring-boot-starter-tomcat'
