@@ -3,4 +3,4 @@
 [![stackoverflow](https://img.shields.io/badge/reportportal-stackoverflow-orange.svg?style=flat)](http://stackoverflow.com/questions/tagged/reportportal)
 
 [![Build Status](https://travis-ci.org/reportportal/service-registry.svg?branch=master)](https://travis-ci.org/reportportal/service-gateway)
-[ ![Download](https://api.bintray.com/packages/epam/reportportal/service-registry/images/download.svg) ](https://bintray.com/epam/reportportal/service-registry/_latestVersion)
+[![Maven Central](https://img.shields.io/maven-central/v/com.epam.reportportal/service-registry.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.epam.reportportal%22%20AND%20a:%22service-registry%22)
